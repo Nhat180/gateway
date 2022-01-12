@@ -3,7 +3,7 @@ spring:
     gateway:
       routes:
         - id: user
-          uri: https://user-sead-group3.herokuapp.com/auth
+          uri: https://user-sead-group3.herokuapp.com
           predicates:
             - Path=/**
         - id: service
